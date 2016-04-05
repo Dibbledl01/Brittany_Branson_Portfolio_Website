@@ -28,6 +28,35 @@
 	padding-top: 320px;
 }
 
+#divider-homepage h2 {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	font-family: "Quicksand", sans-serif;
+	font-size: 20px;
+	text-align: center;
+	color: #FFA6A3;
+	opacity: 0.8;
+	padding-top: 500px;
+	padding-right: 250px;
+	padding-left: 250px;
+}
+
+#arrow {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	color: #FFA6A3;
+	font-size: 30pt;
+	padding-top: 575px;
+}
+
 #top-menu-nav {
 	position: fixed;
 	top: 0;
@@ -237,12 +266,15 @@ figure a:hover {
 	margin-top: 10px;
 }
 
+#contact-divider {
+	text-align: center;
+}
+
 #contact-divider a {
 	font-family: "Cinzel", serif;
-	font-size: 20pt;
+	font-size: 40pt;
 	color: #f2cdba;
 	text-decoration: none;
-	justify-content: center;
 }
 
 #contact-divider a:hover {
@@ -412,9 +444,30 @@ position: fixed;
 }
 
 #web-resume-section {
-	height: 500px;
+	height: 300px;
 	width: 100%;
 	background-color: #FFF4F1;
+	text-align: center;
+}
+
+#web-resume-section p {
+	font-family: "Quicksand", sans-serif;
+	color: #6B5553;
+	font-size: 20pt;
+}
+
+#web-resume-section a {
+	text-decoration: none;
+	color: #f2cdba;
+}
+
+#web-resume-section a:hover {
+color: #B0EAC8;
+}
+
+#web-resume-container {
+	text-align: center;
+	padding-top: 60px;
 }
 
 #wedding-section {
