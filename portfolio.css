@@ -176,7 +176,7 @@ figure a:hover {
 }
 
 #headshot-divider {
-	background-image: url(http://i.imgur.com/MclrLBU.jpg);
+	background-image: url(http://i.imgur.com/jyHhmbl.png);
 	height: 400px;
 	background-attachment: fixed;
 	background-position: center center;
@@ -327,12 +327,12 @@ footer p {
 #brittany-bio-section {
 	height: 500px;
 	background-color: #FFF4F1;
-	opacity: 0.8;
-	background-image: url(http://i.imgur.com/ggTB9CQ.jpg);
+	opacity: 0.9;
+	background-image: url(http://i.imgur.com/jH4Q8Hj.png);
 	background-position: left center;
 	background-repeat: no-repeat;
-	padding-left: 680px;
-	padding-right: 60px;
+	padding-left: 620px;
+	padding-right: 40px;
 	padding-top: 40px;
 	padding-bottom: 110px;
 	font-family: "Quicksand", sans-serif;
