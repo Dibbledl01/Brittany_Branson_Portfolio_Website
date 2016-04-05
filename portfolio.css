@@ -21,30 +21,59 @@
 	right: 0;
 	margin: auto;
 	font-family: "Cinzel", serif;
-  font-size: 65px;
-  text-align: center;
+	font-size: 65px;
+	text-align: center;
 	color: #FFA6A3;
 	opacity: 0.8;
-  padding-top: 320px;
+	padding-top: 320px;
+}
+
+#divider-homepage h2 {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	font-family: "Quicksand", sans-serif;
+	font-size: 20px;
+	text-align: center;
+	color: #FFA6A3;
+	opacity: 0.8;
+	padding-top: 500px;
+	padding-right: 250px;
+	padding-left: 250px;
+}
+
+#arrow {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	color: #FFA6A3;
+	font-size: 30pt;
+	padding-top: 575px;
 }
 
 #top-menu-nav {
-  position: fixed;
-  top: 0;
-  background-color: white;
-  opacity: 0.9;
-  height: 50px;
-  width: 100%;
+	position: fixed;
+	top: 0;
+	background-color: white;
+	opacity: 0.9;
+	height: 50px;
+	width: 100%;
 	z-index: 100;
 	display: inline-block;
 }
 
 #top-menu li {
-  float: right;
-  display: inline-block;
-  padding-right: 22px;
-  padding-top: 15px;
-  font-size: 15px;
+	float: right;
+	display: inline-block;
+	padding-right: 22px;
+	padding-top: 15px;
+	font-size: 15px;
 }
 
 nav a {
@@ -143,11 +172,11 @@ figure a {
 }
 
 figure a:hover {
-		color: #B0EAC8;
+	color: #B0EAC8;
 }
 
 #headshot-divider {
-	background-image: url(http://i.imgur.com/MclrLBU.jpg);
+	background-image: url(http://i.imgur.com/jyHhmbl.png);
 	height: 400px;
 	background-attachment: fixed;
 	background-position: center center;
@@ -177,35 +206,35 @@ figure a:hover {
 }
 
 .meet-brittany-button {
-	 display: inline-block;
-   width: 200px;
-   padding: 8px;
-   color: #fff;
-   border: 1px solid #fff;
-   text-align: center;
-   outline: none;
-   text-decoration: none;
-	 margin-left: 522px;
-	 margin-top: 50px;
-	}
+	display: inline-block;
+	width: 200px;
+	padding: 8px;
+	color: #fff;
+	border: 1px solid #fff;
+	text-align: center;
+	outline: none;
+	text-decoration: none;
+	margin-left: 522px;
+	margin-top: 50px;
+}
 
-	.meet-brittany-button:hover,
-	.meet-brittany-button:active {
-		background-color: #fff;
-		color: #FFA6A3;
-	}
+.meet-brittany-button:hover,
+.meet-brittany-button:active {
+	background-color: #fff;
+	color: #FFA6A3;
+}
 
-	.meet-brittany-button-transition {
-		display: inline-block;
-		width: 200px;
-		padding: 8px;
-		color: #fff;
-		border: 2px solid #fff;
-		text-align: center;
-		outline: none;
-		text-decoration: none;
-		transition: background-color 0.2s ease-out, color 0.2s ease-out;
-	}
+.meet-brittany-button-transition {
+	display: inline-block;
+	width: 200px;
+	padding: 8px;
+	color: #fff;
+	border: 2px solid #fff;
+	text-align: center;
+	outline: none;
+	text-decoration: none;
+	transition: background-color 0.2s ease-out, color 0.2s ease-out;
+}
 .meet-brittany-button-transition:hover,
 .meet-brittany-button-transition:active {
 	background-color: #fff;
@@ -222,13 +251,13 @@ figure a:hover {
 }
 
 #quote-paragraph {
-text-align: center;
-font-size: 30pt;
-margin-top: 70px;
-color: #6B5553;
-margin-left: 200px;
-margin-right: 200px;
-font-family: "Quicksand", sans-serif;
+	text-align: center;
+	font-size: 30pt;
+	margin-top: 70px;
+	color: #6B5553;
+	margin-left: 200px;
+	margin-right: 200px;
+	font-family: "Quicksand", sans-serif;
 }
 
 #shaw-paragraph {
@@ -237,12 +266,15 @@ font-family: "Quicksand", sans-serif;
 	margin-top: 10px;
 }
 
+#contact-divider {
+	text-align: center;
+}
+
 #contact-divider a {
 	font-family: "Cinzel", serif;
-	font-size: 20pt;
+	font-size: 40pt;
 	color: #f2cdba;
 	text-decoration: none;
-	justify-content: center;
 }
 
 #contact-divider a:hover {
@@ -260,6 +292,7 @@ footer p {
 	font-family: "Cinzel", serif;
 	padding-left: 20px;
 	padding-top: 5px;
+	float: left;
 }
 
 #meet-brittany-section {
@@ -294,12 +327,12 @@ footer p {
 #brittany-bio-section {
 	height: 500px;
 	background-color: #FFF4F1;
-	opacity: 0.8;
-	background-image: url(http://i.imgur.com/ggTB9CQ.jpg);
+	opacity: 0.9;
+	background-image: url(http://i.imgur.com/jH4Q8Hj.png);
 	background-position: left center;
 	background-repeat: no-repeat;
-	padding-left: 680px;
-	padding-right: 60px;
+	padding-left: 620px;
+	padding-right: 40px;
 	padding-top: 40px;
 	padding-bottom: 110px;
 	font-family: "Quicksand", sans-serif;
@@ -313,7 +346,7 @@ footer p {
 }
 
 #liz-paragraph {
-margin-top: 10px;
+	margin-top: 10px;
 }
 
 #web-section {
@@ -326,15 +359,6 @@ margin-top: 10px;
 	background-size: cover;
 	padding-bottom: 30px;
 }
-
-
-/*#web-section img {
-	max-width: 100%;
-	max-height: 100%;
-	margin: auto;
-	display: block;
-	position: fixed;
-}*/
 
 #web-intro-section {
 	height: 300px;
@@ -411,9 +435,30 @@ margin-top: 10px;
 }
 
 #web-resume-section {
-	height: 500px;
+	height: 300px;
 	width: 100%;
 	background-color: #FFF4F1;
+	text-align: center;
+}
+
+#web-resume-section p {
+	font-family: "Quicksand", sans-serif;
+	color: #6B5553;
+	font-size: 20pt;
+}
+
+#web-resume-section a {
+	text-decoration: none;
+	color: #f2cdba;
+}
+
+#web-resume-section a:hover {
+color: #B0EAC8;
+}
+
+#web-resume-container {
+	text-align: center;
+	padding-top: 60px;
 }
 
 #wedding-section {
@@ -475,6 +520,7 @@ margin-top: 10px;
 	position: relative;
 	height: 320px;
 	text-align: center;
+	margin-top: 60px;
 }
 
 .thumbnail img {
@@ -515,4 +561,20 @@ margin-top: 10px;
 	top: 0;
 	left: 230px;
 	z-index: 50;
+}
+
+#painting-intro-section {
+	background-color: #FFF4F1;
+	height: 200px;
+	background-position: center center;
+	background-size: cover;
+	margin-top: 80px;
+}
+
+#painting-intro-paragraph {
+	color: #FFA6A3;
+	padding-top: 80px;
+	padding-left: 20px;
+	font-size: 20pt;
+	font-family: "Cinzel", serif;
 }
