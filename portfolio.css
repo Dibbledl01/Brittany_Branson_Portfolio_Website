@@ -185,7 +185,7 @@ figure a:hover {
 }
 
 #headshot-divider h1 {
-	font-family: "Open Sans Condensed";
+	font-family: "Quicksand", sans-serif;
 	display: block;
 	text-align: center;
 	font-size: 30px;
@@ -195,6 +195,15 @@ figure a:hover {
 	opacity: 1;
 	width: 68%;
 	padding-top: 120px;
+}
+
+#headshot-divider h2 {
+	font-family: "Cinzel", serif;
+	color: #fff;
+	text-align: center;
+	font-size: 15px;
+	margin-top: 10px;
+
 }
 
 #extra-headshot-paragraph {
