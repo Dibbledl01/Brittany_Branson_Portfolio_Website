@@ -516,3 +516,19 @@ margin-top: 10px;
 	left: 230px;
 	z-index: 50;
 }
+
+#painting-intro-section {
+		background-image: url(http://i.imgur.com/pnOelZB.png);
+		height: 400px;
+		background-attachment: fixed;
+		background-position: center center;
+		background-size: cover;
+}
+
+#wedding-paragraph {
+	color: #white;
+	padding-top: 5px;
+	padding-left: 20px;
+	font-size: 30pt;
+	font-family: "Quicksand", sans-serif;
+}
