@@ -369,6 +369,26 @@ footer p {
 	padding-bottom: 30px;
 }
 
+#web-container {
+	height: 100px;
+	width: 763px;
+	padding-top: 120px;
+}
+
+#web-paragraph {
+	color: #f2cdba;
+	padding-top: 5px;
+	padding-left: 20px;
+	font-size: 30pt;
+	font-family: "Quicksand", sans-serif;
+}
+
+#milton-paragraph {
+	color: #FFA6A3;
+	padding-left: 300px;
+	padding-top: 10px;
+}
+
 #web-intro-section {
 	height: 300px;
 	width: 100%;
@@ -454,7 +474,7 @@ footer p {
 }
 
 #web-image-four {
-	background-image: url(http://i.imgur.com/wllkQag.png);
+	background-image: url(http://i.imgur.com/X4eOGqS.jpg);
 	height: 250px;
 	width: 300px;
 	background-position: center center;
@@ -472,7 +492,7 @@ footer p {
 }
 
 #web-image-six {
-	background-image: url(http://i.imgur.com/WZQixWh.png);
+	background-image: url(http://i.imgur.com/X4eOGqS.jpg);
 	height: 250px;
 	width: 300px;
 	background-position: center center;
@@ -487,8 +507,6 @@ footer p {
 	font-family: "Quicksand";
 	color: #6B5553;
 }
-
-
 
 #web-resume-section {
 	height: 300px;
@@ -633,4 +651,32 @@ color: #B0EAC8;
 	padding-left: 20px;
 	font-size: 20pt;
 	font-family: "Cinzel", serif;
+}
+
+#prototype-section {
+	background-image: url(http://i.imgur.com/2vOWJio.jpg);
+	height: 400px;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+}
+
+#prototype-container {
+	height: 100px;
+	width: 563px;
+	padding-top: 120px;
+}
+
+#prototype-paragraph {
+	color: #f2cdba;
+	padding-top: 5px;
+	padding-left: 20px;
+	font-size: 30pt;
+	font-family: "Quicksand", sans-serif;
+}
+
+#michael-paragraph {
+	color: #FFA6A3;
+	padding-left: 150px;
+	padding-top: 10px;
 }
