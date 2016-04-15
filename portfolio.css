@@ -780,8 +780,6 @@ color: #B0EAC8;
 	color: #6B5553;
 }
 
-
-
 #persona-section {
 	width: 100%;
 	height: 400px;
@@ -789,14 +787,29 @@ color: #B0EAC8;
 	background-image: url(http://i.imgur.com/tCRZg93.png);
 	background-position: left center;
 	background-repeat: no-repeat;
-	border: solid red;
 }
 
 #persona-paragraph {
 	font-family: "Quicksand", sans-serif;
 	text-align: center;
-	border: solid blue;
 	margin: 0 auto;
 	margin-left: 475px;
+	padding-top: 20px;
+}
 
+#persona-intro-section {
+	background-image: url(http://i.imgur.com/lAr9czI.png);
+	height: 300px;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+}
+
+#persona-intro-paragraph {
+	text-align: center;
+	font-family: "Quicksand", sans-serif;
+	font-size: 25pt;
+	color: white;
+	position: relative;
+	padding-top: 80px;
 }
